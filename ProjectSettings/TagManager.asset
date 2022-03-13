@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tree
+  - Ground
+  - Cloud
+  - Tree2
+  - Cloud2
+  - Tree1
+  - Obstacle
+  - Health
+  - GamePlayController
   layers:
   - Default
   - TransparentFX
@@ -40,4 +49,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2498830419
+    locked: 0
+  - name: Tree
+    uniqueID: 3124745829
+    locked: 0
+  - name: Ground
+    uniqueID: 3313511049
+    locked: 0
+  - name: Player
+    uniqueID: 1718700777
     locked: 0
