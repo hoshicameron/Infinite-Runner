@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Unity Projects\Infinite Runner\Infinite Runner" t="IncludeFlat">
+    <e p="C:\Unity Projects\Infinite Runner" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="TagManager.cs" t="Include" />
+        </e>
+      </e>
       <e p="Infinite Runner.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+      </e>
     </e>
     <e p="C:\Users\hoshyar\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\hoshyar\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Infinite Runner.-268909378.00" t="ExcludeRecursive" />
+    <e p="C:\Users\hoshyar\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Infinite Runner.-40409122.00" t="ExcludeRecursive" />
   </component>
 </project>
