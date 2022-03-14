@@ -6,11 +6,19 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BackgroundSpawners" t="Include">
+            <e p="BackgroundGenerator.cs" t="Include" />
+            <e p="Collector.cs" t="Include" />
             <e p="RepositionBackground.cs" t="Include" />
           </e>
-          <e p="CameraFollow.cs" t="Include" />
+          <e p="Gameplay" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+          </e>
+          <e p="Helper" t="Include">
+            <e p="TagManager.cs" t="Include" />
+          </e>
           <e p="PlayerController.cs" t="Include" />
-          <e p="TagManager.cs" t="Include" />
+          <e p="PoolManager.cs" t="Include" />
+          <e p="SingletonMonoBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Infinite Runner.sln" t="IncludeFlat" />

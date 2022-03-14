@@ -10,6 +10,8 @@ public static class TagManager
     public static string Tree_TAG = "Tree";
     public static string Tree1_TAG = "Tree1";
     public static string Tree2_TAG = "Tree2";
+    public static string Cloud1_TAG = "Cloud";
+    public static string Cloud2_TAG = "Cloud2";
     public static string Ground_TAG = "Ground";
     public static string OBSTACLE_TAG = "Obstacle";
     public static string HEALTH_TAG = "Health";
