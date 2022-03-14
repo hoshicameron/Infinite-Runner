@@ -25,6 +25,8 @@ public static class TagManager
     public static string DeadAnimationParameter = "Dead";
     public static string SlideAnimationParameter = "Slide";
 
+    public static string JUMP_BUTTON = "Jump";
+
     // Scene names
     public static string GAMEPLAY_SCENE_NAME = "Gameplay";
     public static string MAINMENU_SCENE_NAME = "MainMenu";
