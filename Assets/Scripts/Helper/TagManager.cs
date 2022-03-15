@@ -16,11 +16,12 @@ public static class TagManager
     public static string OBSTACLE_TAG = "Obstacle";
     public static string HEALTH_TAG = "Health";
     public static string GAMEPLAY_CONTROLLER_TAG = "GamePlayController";
+    public static string Shredder_TAG = "Shredder";
 
     // Animations
     public static string JumpAnimationParameter = "Jump";
     public static string AttackAnimationParameter = "Attack";
-    public static string RunningAnimationParameter = "Run";
+    public static string RunningAnimationParameter = "Running";
     public static string JumpAttackAnimationParameter = "JumpAttack";
     public static string DeadAnimationParameter = "Dead";
     public static string SlideAnimationParameter = "Slide";

@@ -16,7 +16,11 @@
           <e p="Helper" t="Include">
             <e p="TagManager.cs" t="Include" />
           </e>
-          <e p="PlayerController.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="PlayerAnimation.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="Projectile.cs" t="Include" />
+          </e>
           <e p="PoolManager.cs" t="Include" />
           <e p="SingletonMonoBehaviour.cs" t="Include" />
         </e>
