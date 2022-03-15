@@ -15,7 +15,7 @@ public class Projectile : MonoBehaviour
     {
         if (other.CompareTag(TagManager.Enemy_TAG))
         {
-            other.gameObject.SetActive(false);
+            other.gameObject.GetComponent<EnemyAnimation>().PlayDead();
             gameObject.SetActive(false);
         }
         if(other.gameObject.CompareTag(TagManager.Shredder_TAG))

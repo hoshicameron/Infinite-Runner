@@ -8,7 +8,9 @@ public class Collector : MonoBehaviour
     {
         if (other.CompareTag(TagManager.Tree_TAG) || other.CompareTag(TagManager.Tree1_TAG) ||
             other.CompareTag(TagManager.Tree2_TAG) || other.CompareTag(TagManager.Cloud1_TAG) ||
-            other.CompareTag(TagManager.Cloud2_TAG) || other.CompareTag(TagManager.Ground_TAG))
+            other.CompareTag(TagManager.Cloud2_TAG) || other.CompareTag(TagManager.Ground_TAG) ||
+            other.CompareTag(TagManager.Enemy_TAG) || other.CompareTag(TagManager.OBSTACLE_TAG) ||
+            other.CompareTag(TagManager.HEALTH_TAG))
         {
             other.gameObject.SetActive(false);
         }

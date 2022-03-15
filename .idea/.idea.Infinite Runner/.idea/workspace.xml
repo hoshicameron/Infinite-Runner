@@ -2,34 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c3dfa8c-eb39-4d7c-8fe7-d54ace77e60a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Infinite Runner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Infinite Runner/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Infinite Runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Infinite Runner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Dead.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Dead.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Fall.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Fall.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Jump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Jump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Jump_Shoot.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Jump_Shoot.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Melee.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Melee.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Run.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Run.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Run_Shoot.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Run_Shoot.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Slide.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player_Slide.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (10).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Dead (9).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (10).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Idle (9).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (10).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Jump (9).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpMelee (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/JumpShoot (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Melee (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Run (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/RunShoot (9).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Shoot (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (10).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (4).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (5).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Slide (9).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +185,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/RepositionBackground.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
+            <state relative-caret-position="550">
               <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding>
                 <marker date="1647202252055" expanded="false" signature="6:92" ph="..." />
@@ -60,7 +202,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/BackgroundGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
+            <state relative-caret-position="-1021">
               <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding>
                 <marker date="1647253032903" expanded="false" signature="6:78" ph="..." />
@@ -101,11 +243,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="-22">
+              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
               <folding>
                 <marker date="1647331268414" expanded="true" signature="6:92" ph="..." />
                 <marker date="1647331268414" expanded="true" signature="139:3546" ph="{...}" />
@@ -131,13 +273,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/RotateObstacle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="418">
+              <caret line="22" column="4" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="4" />
               <folding>
-                <marker date="1647266884379" expanded="false" signature="6:78" ph="..." />
-                <marker date="1647266884379" expanded="true" signature="110:1760" ph="{...}" />
+                <marker date="1647344337519" expanded="false" signature="6:78" ph="..." />
+                <marker date="1647344337519" expanded="true" signature="123:605" ph="{...}" />
+                <marker date="1647344337519" expanded="true" signature="320:450" ph="{...}" />
+                <marker date="1647344337519" expanded="true" signature="476:603" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -146,15 +290,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            <state relative-caret-position="167">
+              <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
               <folding>
-                <marker date="1647265237018" expanded="false" signature="6:78" ph="..." />
-                <marker date="1647265237018" expanded="true" signature="119:625" ph="{...}" />
-                <marker date="1647265237018" expanded="true" signature="190:272" ph="{...}" />
-                <marker date="1647265237018" expanded="true" signature="325:623" ph="{...}" />
-                <marker date="1647265237018" expanded="true" signature="383:491" ph="{...}" />
-                <marker date="1647265237018" expanded="true" signature="556:617" ph="{...}" />
+                <marker date="1647354095579" expanded="false" signature="6:78" ph="..." />
+                <marker date="1647354095579" expanded="true" signature="119:650" ph="{...}" />
+                <marker date="1647354095579" expanded="true" signature="190:272" ph="{...}" />
+                <marker date="1647354095579" expanded="true" signature="325:648" ph="{...}" />
+                <marker date="1647354095579" expanded="true" signature="383:516" ph="{...}" />
+                <marker date="1647354095579" expanded="true" signature="581:642" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/ObstacleSpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+              <folding>
+                <marker date="1647374770684" expanded="false" signature="6:78" ph="..." />
+                <marker date="1647374770684" expanded="true" signature="124:3627" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="1337:1381" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="1408:1454" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="1497:1706" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="1542:1700" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="1740:3241" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="1842:3235" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="3274:3625" ph="{...}" />
+                <marker date="1647374770684" expanded="true" signature="3333:3619" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <marker date="1647372667804" expanded="false" signature="6:78" ph="..." />
+                <marker date="1647372667804" expanded="true" signature="118:695" ph="{...}" />
+                <marker date="1647372667804" expanded="true" signature="172:693" ph="{...}" />
+                <marker date="1647372667804" expanded="true" signature="620:687" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+              <folding>
+                <marker date="1647353995461" expanded="false" signature="6:78" ph="..." />
+                <marker date="1647353995461" expanded="true" signature="123:796" ph="{...}" />
+                <marker date="1647353995461" expanded="true" signature="239:296" ph="{...}" />
+                <marker date="1647353995461" expanded="true" signature="324:400" ph="{...}" />
+                <marker date="1647353995461" expanded="true" signature="430:515" ph="{...}" />
+                <marker date="1647353995461" expanded="true" signature="557:609" ph="{...}" />
+                <marker date="1647353995461" expanded="true" signature="654:707" ph="{...}" />
+                <marker date="1647353995461" expanded="true" signature="745:794" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -168,11 +367,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/BackgroundGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/ObstacleSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/RepositionBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/DealDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttackTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/RotateObstacle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/SwingObstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PoolManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -186,12 +391,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PoolManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/BackgroundGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DealDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttackTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/DealDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle/RotateObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle/SwingObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle/ObstacleSpawner.cs" />
       </list>
     </option>
   </component>
@@ -258,12 +470,12 @@
       <workItem from="1647199311136" duration="3776000" />
       <workItem from="1647243191658" duration="16241000" />
       <workItem from="1647285174654" duration="1190000" />
-      <workItem from="1647327087051" duration="3682000" />
+      <workItem from="1647327087051" duration="16557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33039000" />
+    <option name="totallyTimeSpent" value="45914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,25 +606,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <marker date="1647253068726" expanded="false" signature="6:78" ph="..." />
-            <marker date="1647253068726" expanded="true" signature="118:541" ph="{...}" />
-            <marker date="1647253068726" expanded="true" signature="172:539" ph="{...}" />
-            <marker date="1647253068726" expanded="true" signature="466:533" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa17104.49520/TagManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa17560.40652/PlayerMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/RepositionBackground.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
+        <state relative-caret-position="550">
           <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
           <folding>
             <marker date="1647202252055" expanded="false" signature="6:92" ph="..." />
@@ -421,52 +620,6 @@
             <marker date="1647202252055" expanded="true" signature="680:844" ph="{...}" />
             <marker date="1647202252055" expanded="true" signature="903:1208" ph="{...}" />
             <marker date="1647202252055" expanded="true" signature="946:1202" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/BackgroundGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <marker date="1647253032903" expanded="false" signature="6:78" ph="..." />
-            <marker date="1647253032903" expanded="true" signature="128:4217" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="1645:1697" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="1729:1942" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="1756:1936" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="1970:2379" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="2074:2373" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="2405:3444" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="2599:3437" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="3479:4215" ph="{...}" />
-            <marker date="1647253032903" expanded="true" signature="3625:4208" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding>
-            <marker date="1647265237018" expanded="false" signature="6:78" ph="..." />
-            <marker date="1647265237018" expanded="true" signature="119:625" ph="{...}" />
-            <marker date="1647265237018" expanded="true" signature="190:272" ph="{...}" />
-            <marker date="1647265237018" expanded="true" signature="325:623" ph="{...}" />
-            <marker date="1647265237018" expanded="true" signature="383:491" ph="{...}" />
-            <marker date="1647265237018" expanded="true" signature="556:617" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <marker date="1647266884379" expanded="false" signature="6:78" ph="..." />
-            <marker date="1647266884379" expanded="true" signature="110:1760" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -491,10 +644,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DealDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttackTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <marker date="1647336880573" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647336880573" expanded="true" signature="127:434" ph="{...}" />
+            <marker date="1647336880573" expanded="true" signature="198:275" ph="{...}" />
+            <marker date="1647336880573" expanded="true" signature="327:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/RotateObstacle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="4" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <marker date="1647344337519" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647344337519" expanded="true" signature="123:605" ph="{...}" />
+            <marker date="1647344337519" expanded="true" signature="320:450" ph="{...}" />
+            <marker date="1647344337519" expanded="true" signature="476:603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/DealDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <marker date="1647343100082" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647343100082" expanded="true" signature="119:411" ph="{...}" />
+            <marker date="1647343100082" expanded="true" signature="220:409" ph="{...}" />
+            <marker date="1647343100082" expanded="true" signature="279:403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helper/TagManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1647334655089" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647334655089" expanded="true" signature="110:1836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="-22">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
           <folding>
             <marker date="1647331268414" expanded="true" signature="6:92" ph="..." />
             <marker date="1647331268414" expanded="true" signature="139:3546" ph="{...}" />
@@ -514,6 +724,103 @@
             <marker date="1647331268414" expanded="true" signature="3138:3239" ph="{...}" />
             <marker date="1647331268414" expanded="true" signature="3273:3402" ph="{...}" />
             <marker date="1647331268414" expanded="true" signature="3435:3542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <marker date="1647353995461" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647353995461" expanded="true" signature="123:796" ph="{...}" />
+            <marker date="1647353995461" expanded="true" signature="239:296" ph="{...}" />
+            <marker date="1647353995461" expanded="true" signature="324:400" ph="{...}" />
+            <marker date="1647353995461" expanded="true" signature="430:515" ph="{...}" />
+            <marker date="1647353995461" expanded="true" signature="557:609" ph="{...}" />
+            <marker date="1647353995461" expanded="true" signature="654:707" ph="{...}" />
+            <marker date="1647353995461" expanded="true" signature="745:794" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/SwingObstacle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+          <folding>
+            <marker date="1647348615694" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647348615694" expanded="true" signature="122:899" ph="{...}" />
+            <marker date="1647348615694" expanded="true" signature="423:559" ph="{...}" />
+            <marker date="1647348615694" expanded="true" signature="586:897" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+          <folding>
+            <marker date="1647354095579" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647354095579" expanded="true" signature="119:650" ph="{...}" />
+            <marker date="1647354095579" expanded="true" signature="190:272" ph="{...}" />
+            <marker date="1647354095579" expanded="true" signature="325:648" ph="{...}" />
+            <marker date="1647354095579" expanded="true" signature="383:516" ph="{...}" />
+            <marker date="1647354095579" expanded="true" signature="581:642" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/Collector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <marker date="1647372667804" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647372667804" expanded="true" signature="118:695" ph="{...}" />
+            <marker date="1647372667804" expanded="true" signature="172:693" ph="{...}" />
+            <marker date="1647372667804" expanded="true" signature="620:687" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundSpawners/BackgroundGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1021">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <marker date="1647253032903" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647253032903" expanded="true" signature="128:4217" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="1645:1697" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="1729:1942" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="1756:1936" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="1970:2379" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="2074:2373" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="2405:3444" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="2599:3437" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="3479:4215" ph="{...}" />
+            <marker date="1647253032903" expanded="true" signature="3625:4208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle/ObstacleSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+          <folding>
+            <marker date="1647374770684" expanded="false" signature="6:78" ph="..." />
+            <marker date="1647374770684" expanded="true" signature="124:3627" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="1337:1381" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="1408:1454" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="1497:1706" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="1542:1700" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="1740:3241" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="1842:3235" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="3274:3625" ph="{...}" />
+            <marker date="1647374770684" expanded="true" signature="3333:3619" ph="{...}" />
           </folding>
         </state>
       </provider>

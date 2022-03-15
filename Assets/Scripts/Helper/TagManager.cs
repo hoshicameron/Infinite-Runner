@@ -25,6 +25,7 @@ public static class TagManager
     public static string JumpAttackAnimationParameter = "JumpAttack";
     public static string DeadAnimationParameter = "Dead";
     public static string SlideAnimationParameter = "Slide";
+    public static string AttackTriggerAnimationParameter = "AttackTrigger";
 
     public static string JUMP_BUTTON = "Jump";
 
