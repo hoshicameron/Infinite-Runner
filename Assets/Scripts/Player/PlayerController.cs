@@ -22,33 +22,21 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rbody2D = null;
     private bool canDoubleJump=true;
-    private BoxCollider2D boxCollider2D = null;
+    /*private BoxCollider2D boxCollider2D = null;
     private Vector2 colliderStartSize=Vector2.zero;
-    private Vector2 colliderStartOffset=Vector2.zero;
+    private Vector2 colliderStartOffset=Vector2.zero;*/
 
     private void Start()
     {
         rbody2D = GetComponent<Rigidbody2D>();
-        boxCollider2D = GetComponent<BoxCollider2D>();
+        /*boxCollider2D = GetComponent<BoxCollider2D>();
         colliderStartSize = boxCollider2D.size;
-        colliderStartOffset = boxCollider2D.offset;
+        colliderStartOffset = boxCollider2D.offset;*/
 
         playerAnimation.shootBullet+=PlayerAnimation_ShootBullet;
-        playerAnimation.startSlide+=PlayerAnimation_StartSlide;
-        playerAnimation.endSlide+=PlayerAnimation_EndSlide;
+
     }
 
-    private void PlayerAnimation_EndSlide()
-    {
-        boxCollider2D.size = colliderStartSize;
-        boxCollider2D.offset = colliderStartOffset;
-    }
-
-    private void PlayerAnimation_StartSlide()
-    {
-        boxCollider2D.size   = colliderSlideSize;
-        boxCollider2D.offset = colliderSlideOffset;
-    }
 
     private void PlayerAnimation_ShootBullet()
     {

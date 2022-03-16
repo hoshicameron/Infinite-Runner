@@ -6,8 +6,7 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
     public event Action shootBullet;
-    public event Action startSlide;
-    public event Action endSlide;
+
 
     private Animator animator;
 
@@ -41,18 +40,15 @@ public class PlayerAnimation : MonoBehaviour
         animator.SetTrigger(TagManager.SlideAnimationParameter);
     }
 
+    public void PlayDead()
+    {
+        animator.SetTrigger(TagManager.DeadAnimationParameter);
+    }
+
     public void  ShootBulletTrigger()
     {
         shootBullet?.Invoke();
     }
 
-    public void StartSlideTrigger()
-    {
-        startSlide?.Invoke();
-    }
 
-    public void EndSlide()
-    {
-        endSlide?.Invoke();
-    }
 }
