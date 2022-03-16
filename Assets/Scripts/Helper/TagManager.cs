@@ -30,8 +30,8 @@ public static class TagManager
     public static string JUMP_BUTTON = "Jump";
 
     // Scene names
-    public static string GAMEPLAY_SCENE_NAME = "Gameplay";
-    public static string MAINMENU_SCENE_NAME = "MainMenu";
+    public static string GAMEPLAY_SCENE_NAME = "Scene GamePlay";
+    public static string MAINMENU_SCENE_NAME = "Scene MainMenu";
 
     // Character Name
     public static string ROBOT = "Robot";

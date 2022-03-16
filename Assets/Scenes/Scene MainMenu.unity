@@ -153,6 +153,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac483ac3a5123534ea8392576640fd0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgMusic: {fileID: 8300000, guid: 7d724cbfbb120664cad675a6fc3b18cd, type: 3}
+  mainMenuMusic: {fileID: 8300000, guid: a3fed866b3691274c8e83c17ba9ed34b, type: 3}
+  playerShootSound: {fileID: 8300000, guid: 10458bdfbfbf94c4a865df6b72a9c56c, type: 3}
+  playerJumpSound: {fileID: 8300000, guid: 02fcb79703c2d0e488c44d1cc0cddbc3, type: 3}
+  playerCollectSound: {fileID: 8300000, guid: 72d81e5e7c8a0e044b27be9379e91862, type: 3}
+  playerDeathSound: {fileID: 8300000, guid: 73e9119ffd2f7a34fb23955957f54646, type: 3}
+  playerSlideSound: {fileID: 8300000, guid: ee6098ec6bff7724795533cacc344ff4, type: 3}
+  enemyDeathSound: {fileID: 8300000, guid: cf02f968c43e39947951315ffa0862b3, type: 3}
+  enemyAttackSound: {fileID: 8300000, guid: 9102efecac5e90f45b2d106533d9dc91, type: 3}
 --- !u!82 &333410991
 AudioSource:
   m_ObjectHideFlags: 0
@@ -164,7 +173,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

@@ -15,6 +15,7 @@ public class EnemyAnimation : MonoBehaviour
 
     public void PlayDead()
     {
+        AudioManager.Instance.Play_EnemyDeathSound();
         animator.SetTrigger(TagManager.DeadAnimationParameter);
     }
 

@@ -30,6 +30,8 @@ public class PlayerHealth : MonoBehaviour
                 PlayerPrefs.SetInt(PlayerPrefsKey.BestScore.ToString(),ScoreCounter.Instance.GetScore());
             }
 
+            AudioManager.Instance.Play_PlayerDeathSound();
+
             UIManager.Instance.ShowGameOverScreen();
             GetComponentInChildren<PlayerAnimation>().PlayDead();
 

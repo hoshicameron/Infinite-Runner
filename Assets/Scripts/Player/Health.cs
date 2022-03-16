@@ -9,6 +9,9 @@ public class Health : MonoBehaviour
         if (other.CompareTag(TagManager.PLAYER_TAG))
         {
             other.GetComponentInParent<PlayerHealth>().IncreaseHealth();
+
+            AudioManager.Instance.Play_PlayerCollectSound();
+
             gameObject.SetActive(false);
         }
     }

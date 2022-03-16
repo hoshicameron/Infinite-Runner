@@ -22,16 +22,12 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rbody2D = null;
     private bool canDoubleJump=true;
-    /*private BoxCollider2D boxCollider2D = null;
-    private Vector2 colliderStartSize=Vector2.zero;
-    private Vector2 colliderStartOffset=Vector2.zero;*/
+
 
     private void Start()
     {
         rbody2D = GetComponent<Rigidbody2D>();
-        /*boxCollider2D = GetComponent<BoxCollider2D>();
-        colliderStartSize = boxCollider2D.size;
-        colliderStartOffset = boxCollider2D.offset;*/
+
 
         playerAnimation.shootBullet+=PlayerAnimation_ShootBullet;
 
@@ -43,6 +39,8 @@ public class PlayerController : MonoBehaviour
         GameObject bullet =
             PoolManager.Instance.ReuseGameObject(bulletPrefab, shootTransform.position, Quaternion.identity);
         bullet.SetActive(true);
+
+        AudioManager.Instance.Play_PlayerAttackSound();
     }
 
     private void Update()
@@ -72,12 +70,17 @@ public class PlayerController : MonoBehaviour
         {
             canDoubleJump = false;
 
+            AudioManager.Instance.Play_PlayerJumpSound();
+
             rbody2D.velocity=Vector2.zero;
             rbody2D.AddForce(new Vector2(0,jumpForce*0.9f),ForceMode2D.Impulse);
         }
         if (IsGrounded())
         {
             canDoubleJump = true;
+
+            AudioManager.Instance.Play_PlayerJumpSound();
+
             rbody2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
         }
     }
