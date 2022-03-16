@@ -10,7 +10,6 @@ public class DealDamage : MonoBehaviour
         if (other.CompareTag(TagManager.PLAYER_TAG))
         {
             other.GetComponentInParent<PlayerHealth>().DecreaseHealth();
-            print("Decrease");
 
             if(destroyable)    gameObject.SetActive(false);
         }

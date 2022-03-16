@@ -16,6 +16,7 @@
             <e p="EnemyAttackTrigger.cs" t="Include" />
           </e>
           <e p="Gameplay" t="Include">
+            <e p="AudioManager.cs" t="Include" />
             <e p="CameraFollow.cs" t="Include" />
             <e p="ScoreCounter.cs" t="Include" />
           </e>
@@ -37,6 +38,7 @@
           <e p="PoolManager.cs" t="Include" />
           <e p="SingletonMonoBehaviour.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="MainMenuUI.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
           </e>
         </e>

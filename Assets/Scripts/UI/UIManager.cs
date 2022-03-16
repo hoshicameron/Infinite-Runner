@@ -61,7 +61,7 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
     private static void ExitGame()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Scene_MainMenu");
+        SceneManager.LoadScene("Scene MainMenu");
     }
 
     public int HealthBarsLength()
